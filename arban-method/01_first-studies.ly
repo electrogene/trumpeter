@@ -35,7 +35,7 @@
     \new Staff \with {instrumentName = "4."}
     e'2_0 f_1 e1_0 d2_1 e_0 d1_1 c2_0 d_1 c1_0 b2_2 c_0 b1_2 \bar "||"
   d2_1 e_0 d1_1 c2_0 d_1 c1_0 b2_2 c_0 b1_2 a2_12 b_2 a1_12 \bar "||"
-  c2_0 d_1 c1_0 b2_2 c_0 b1_0 g2_0 a_12 g1_0 c2_0 d_1 c1_0 \break
+  c2_0 d_1 c1_0 b2_2 c_0 b1_2 g2_0 a_12 g1_0 c2_0 d_1 c1_0 \break
   }
 }
 
@@ -52,6 +52,20 @@
     \new Staff \with {instrumentName = "6."}
     c2_0 b_2 c_0 d_1 c_0 b_2 a1_12 d2_1 cs_12 d_1 e_0 d_1 c_0 b1_2 g2_0 fs_2 g_0 a_12 b_2 c_0 d1_1
   c2_0 e_0 d_1 c_0 b_2 a_12 gs1_23 a2_12 gs_23 a_12 b_2 c_0 a_12 b1_2 b2_2 a_12 b_2 c_0 d_1 b_2 c1_0\break
+  }
+}
+
+\score {
+  \relative g' {
+    \new Staff \with {instrumentName = "7."}
+    g1_0 c g e' c g' e c \bar "||" \break
+  fs,_2 b fs ds' b fs' ds b \bar "||" \break
+  f_1 bf f d' bf f' d bf \bar "||" \break
+  e,_12 a e cs' a e' cs a\bar "||" \break
+  ef_23 af ef c' af ef' c af \bar "||" \break
+  d,_13 g d b' g d' b g \bar "||" \break
+  c,_0 f_1 c a'_12 f_1 c'_0 a_12 f_1 \bar "||" \break
+  g1_0 c g e' c g' e c \bar "||" \break
   }
 }
 
