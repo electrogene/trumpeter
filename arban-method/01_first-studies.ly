@@ -69,6 +69,20 @@
   }
 }
 
+\score {
+  \relative g' {
+    \new Staff \with {instrumentName = "8."}
+    g2_0 g c c g g e' e g, g c1 \bar "||" \break
+  fs,2_2 fs b b fs fs ds' ds fs, fs b1 \bar "||" \break
+  f2_1 f bf bf f f d' d f, f bf1 \bar "||" \break
+  e,2_12 e a a e e cs' cs e, e a1 \bar "||" \break
+  ef2_23 ef af af ef ef c' c ef, ef af1 \bar "||" \break
+  d,2_13 d g g d d b' b d, d g2 \bar "||" \break
+  c,2_0 c f_1 f c c a'_12 a c, c f1 \bar "||" \break
+  g2_0 g c c g g e' e g, g c1 \bar "||" \break
+  }
+}
+
 \midi {}
 \layout {
   \context {
